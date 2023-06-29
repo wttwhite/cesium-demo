@@ -51,7 +51,7 @@ export default {
     addBillboard(scene) {
       const billboard = scene.primitives.add(new BillboardCollection())
       billboard.add({
-        image: './Cesium_Logo_Color_Overlay.png',
+        image: './Assets/Images/cesium_credit.png',
         position: Cartesian3.fromDegrees(-75.59777, 40.03883),
         // width: 1000,
         // height: 100,
